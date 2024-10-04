@@ -1,0 +1,186 @@
+.drop-dwn {
+  /*justify-content: flex-start;
+  /*margin-right: auto;*/
+  justify-content: flex-start;
+  margin-right: auto;
+  display: inline-block;
+}
+
+.drpdwn-content {
+  display: none;
+  justify-content: flex-start;
+  margin-right: auto;
+}
+
+.drpdwn-content > a {
+  color: white;
+  font-family: futura;
+  display: block;
+}
+
+.show {
+  display: block;
+}
+
+.nav-bar {
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+  padding-right: 50px;
+  padding-left: 50px;
+  height: 30px;
+  background-color: none;
+  border-radius: 8px;
+  
+}
+
+.menu {
+  background-color: orange;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  height: 50px;
+  width: 100px;
+  border-radius: 5%;
+  justify-content: flex-start;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.menu:hover {
+  background-color: transparent;
+}
+
+.home {
+  background-color: transparent;
+  border: none;
+  font-family: sans-serif;
+  font-style: bold;
+  font-size: 1rem;
+  color: orange;
+  padding: 2px;
+  width: 130px;
+  height: 20px;
+  
+}
+
+.home:hover {
+  background-color: black;
+  color: white;
+}
+
+.shop {
+  background-color: transparent;
+  border: none;
+  font-family: sans-serif;
+  font-style: bold;
+  font-size: 1rem;
+  color: orange;
+  padding: 2px;
+  width: 130px;
+  border: 1px;
+  border-color: white;
+}
+
+.shop:hover {
+  background-color: black;
+  color: white;
+}
+
+.check-out {
+  background-color: transparent;
+  border: none;
+  font-family: sans-serif;
+  font-style: bold;
+  font-size: 1rem;
+  color: orange;
+  padding: 2px;
+  width: 130px;
+  border: 1px;
+  border-color: white
+}
+
+.check-out:hover {
+  background-color: black;
+  color: white;
+}
+
+.log-out {
+  background-color: #e58e73;
+  font-family: sans-serif;
+  color: #5A5A5A;
+  border-radius; 12px;
+  padding: 2px;
+  width: 130px;
+  border: 1px;
+  border-color: white
+}
+
+.log-out:hover {
+  background-color: red;
+  color: black;
+}
+
+#hero h1 {
+  display: flex;
+  margin-top: 150px;
+  justify-content: center;
+  align-content: center;
+  font-family: futura;
+  font-size: 6rem;
+  font-weight: bold;
+  color: bisque;
+}
+
+#hero h2 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-family: sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  color: orange;
+}
+
+.sections {
+  display: grid;
+  grid-template-rows: 100vh;
+  grid-template-columns: 1fr 1fr; 
+  justify-items: center;
+  align-items: centre;
+}
+
+img {
+  max-height: 500px;
+}
+
+#shoes button {
+  background-color: transparent;
+  border: none;
+  color: bisque;
+  position: absolute;
+  padding-left: 80px;
+  padding-top: 80px;
+  font-family: sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+#tops {
+  font-family: sans-serif;
+  font-size: 2rem;
+}
+
+#bottoms {
+  font-family: sans-serif;
+  font-size: 2rem;
+}
+
+
+#accessories {
+  font-family: sans-serif;
+  font-size: 2rem;
+}
