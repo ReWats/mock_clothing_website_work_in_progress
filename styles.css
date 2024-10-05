@@ -143,6 +143,22 @@
   color: black;
 }
 
+a:link {
+  color: orange;
+}
+
+a:visited {
+  color: orange;
+}
+
+a:hover {
+  color: white;
+}
+
+a:active {
+  color: white;
+}
+
 #hero h1 {
   display: flex;
   margin-top: 100px;
