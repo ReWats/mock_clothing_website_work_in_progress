@@ -75,6 +75,7 @@
 .shop {
   background-color: transparent;
   border: none;
+  text-decoration: none;
   font-family: sans-serif;
   font-style: bold;
   font-size: 1rem;
