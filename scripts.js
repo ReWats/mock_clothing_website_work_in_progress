@@ -2,7 +2,7 @@ function showMenu() {
 document.getElementById("drpDwn").classList.toggle("show");
 }
 
-const navLinkElements = document.querySelectorAll('.nav__link');
+const navLinkElements = document.querySelectorAll('.navlink');
 const windowPathname = window.location.pathname;
 
 navLinkElements.forEach(navLinkEl => {
