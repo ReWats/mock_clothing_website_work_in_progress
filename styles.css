@@ -219,6 +219,7 @@ opacity: 0.7;
   font-family: sans-serif;
   font-size: 2rem;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .tsrt {
@@ -235,6 +236,7 @@ opacity: 0.6;
   font-family: sans-serif;
   font-size: 2rem;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .trousers {
@@ -251,6 +253,7 @@ opacity: 0.6;
   font-family: sans-serif;
   font-size: 2rem;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .access {
