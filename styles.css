@@ -27,7 +27,7 @@
 
 .nav-bar {
   display: flex;
-  max-width: 100%;
+  width: 100vw;
   gap: 20px;
   flex-direction: row;
   justify-content: right;
@@ -132,7 +132,7 @@
   background-color: #e58e73;
   font-family: sans-serif;
   color: #D3D3D3;
-  border-radius; 12px;
+  border-radius: 12px;
   padding: 2px;
   width: 130px;
   border: 1px;
@@ -183,15 +183,28 @@ a:active {
 
 .sections {
   display: grid;
-  max-width: 100%;
-  grid-template-rows: auto;
+  width: 100vw;
+  grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr; 
   justify-items: center;
   align-items: centre;
 }
 
+@media (min-width: 1200px) and (max-width: 2400px)
 img {
   max-height: 450px;
+  border-radius: 6px;
+}
+
+@media (min-width: 481px) and (max-width: 1200px)
+img {
+  max-width: 400px;
+  border-radius: 6px;
+}
+
+@media (max-width: 480px)
+img {
+  max-width: 200px;
   border-radius: 6px;
 }
 
