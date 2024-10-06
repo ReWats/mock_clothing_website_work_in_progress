@@ -264,20 +264,22 @@ opacity: 0.6;
 
 p {
   color: orange;
-  font-size: 1rem;
+  font-size: 2rem;
   font-family: futura;
 }
 
 li {
   color: orange;
-  font-size: 18px;
+  font-size: 1rem;
   text-decoration: none;
   font-family: futura;
 }
 
 .buy {
   background-color: transparent;
-  color: green;
+  border: none;
+  color: purple;
+  margin-left: 20px;
   font-weight: bold;
   cursor: pointer;
   font-family: futura;
