@@ -27,7 +27,7 @@
 
 .nav-bar {
   display: flex;
-  width: 100%;
+  max-width: 100%;
   gap: 20px;
   flex-direction: row;
   justify-content: right;
@@ -183,11 +183,16 @@ a:active {
 
 .sections {
   display: grid;
-  width: 100%;
+  max-width: 100%;
   grid-template-rows: auto;
   grid-template-columns: 1fr 1fr; 
   justify-items: center;
   align-items: centre;
+}
+
+img {
+  max-height: 450px;
+  border-radius 12px
 }
 
 #shoes button {
