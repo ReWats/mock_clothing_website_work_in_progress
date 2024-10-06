@@ -261,3 +261,21 @@ opacity: 0.6;
 .access {
   opacity: 0.6;
 }
+
+p {
+  color: orange;
+  font-size: 1rem;
+}
+
+li {
+  color: orange;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.buy {
+  background-color: transparent;
+  color: green;
+  font-weight: bold;
+  cursor: pointer;
+}
