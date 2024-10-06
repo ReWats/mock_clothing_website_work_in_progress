@@ -11,5 +11,6 @@ navLinkElements.forEach(navLinkEl => {
   }
 });
 
-//function myShoes() {
-//document.grtElementById("shoes")
+function showSizes() {
+document.getElementById("sizes").classList.toggle("show");
+}
