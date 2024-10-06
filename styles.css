@@ -27,7 +27,7 @@
 
 .nav-bar {
   display: flex;
-  width: 100vw;
+  width: 100%;
   gap: 20px;
   flex-direction: row;
   justify-content: right;
@@ -183,7 +183,7 @@ a:active {
 
 .sections {
   display: grid;
-  width: 100vw;
+  width: 100%;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr; 
   justify-items: center;
@@ -191,19 +191,19 @@ a:active {
 }
 
 @media (min-width: 1200px) and (max-width: 2400px)
-.sections img {
+.sections > img {
   max-height: 450px;
   border-radius: 6px;
 }
 
 @media (min-width: 481px) and (max-width: 1200px)
-.sections img {
+.sections > img {
   max-width: 400px;
   border-radius: 6px;
 }
 
 @media (max-width: 480px)
-.sections img {
+.sections > img {
   max-width: 200px;
   border-radius: 6px;
 }
