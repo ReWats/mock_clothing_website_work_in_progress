@@ -190,24 +190,6 @@ a:active {
   align-items: centre;
 }
 
-@media (min-width: 1200px) and (max-width: 2400px)
-.sections > img {
-  max-height: 450px;
-  border-radius: 6px;
-}
-
-@media (min-width: 481px) and (max-width: 1200px)
-.sections > img {
-  max-width: 400px;
-  border-radius: 6px;
-}
-
-@media (max-width: 480px)
-.sections > img {
-  max-width: 200px;
-  border-radius: 6px;
-}
-
 #shoes button {
   background-color: transparent;
   border: none;
