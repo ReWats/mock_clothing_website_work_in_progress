@@ -148,9 +148,9 @@ a:active {
   }
 }
 
-img {
+.sections > img {
   min-width: 300px;
-  max-width:600px;
+  max-width: 600px;
   border-radius: 12px;
 }
 
@@ -219,12 +219,6 @@ opacity: 0.6;
 
 .access {
   opacity: 0.6;
-}
-
-p {
-  color: orange;
-  font-size: 2rem;
-  font-family: futura;
 }
 
 .shop {
