@@ -185,25 +185,25 @@ a:active {
   display: grid;
   max-width: 100%;
   grid-template-rows: auto;
-  grid-template-columns: repeat(4, 200px);
+  grid-template-columns: repeat(4, 350px);
   justify-items: center;
   align-items: centre;
 }
 
 @media (max-width: 1000px) {
   .sections {
-    grid-template-columns: repeat(2, 200px);
+    grid-template-columns: repeat(2, 350px);
   }
 }
 
 @media (max-width: 500px) {
   .sections {
-    grid-template-columns: repeat(1, 200px);
+    grid-template-columns: repeat(1, 350px);
   }
 }
 
 img {
-  width: 200px;
+  width: 350px;
   border-radius: 12px;
 }
 
