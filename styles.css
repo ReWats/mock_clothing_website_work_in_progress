@@ -227,3 +227,66 @@ p {
   font-family: futura;
 }
 
+.shop {
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
+  gap: 30px;
+  justify-content: center;
+}
+
+@media (max-width: 1000px) {
+  .shop {
+    grid-template-columns: repeat(2, 200px);
+  }
+}
+
+@media (max-width: 500px) {
+  .shop {
+    grid-template-columns: repeat(1, 200px);
+  }
+}
+
+img {
+  border-radius: 10px;
+}
+
+h3 {
+  color: bisque;
+}
+
+.item {
+  border: 1px solid orange;
+  border-radius: 4px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 10px;
+  color: orange;
+}
+
+.price-quantity {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  color: bisque;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  font-size: 20px;
+}
+
+.bi-dash-square {
+  color: red;
+}
+
+.bi-plus-square {
+  color: green;
+}
+
