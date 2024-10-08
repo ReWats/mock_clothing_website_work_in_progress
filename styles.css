@@ -226,33 +226,3 @@ p {
   font-family: futura;
 }
 
-.browsetops {
-  max-width: 200px;
-}
-
-li {
-  color: orange;
-  font-size: 1rem;
-  text-decoration: none;
-  font-family: futura;
-}
-
-.buy {
-  background-color: transparent;
-  border: none;
-  color: purple;
-  justify-content: right;
-  font-weight: bold;
-  cursor: pointer;
-  font-family: futura;
-}
-
-#sizes {
-  background-color: transparent;
-  border: none;
-  color: purple;
-  margin-left: 1rem;
-  font-weight: bold;
-  cursor: pointer;
-  font-family: futura;
-  
