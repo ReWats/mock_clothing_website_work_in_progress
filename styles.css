@@ -1,5 +1,6 @@
 body {
   background-image: url("https://fastly.picsum.photos/id/281/4928/3264.jpg?hmac=0XHN8kT-vNOM5Sl2vfxmJk0uWAbHSj5EUMAO9eQ0XFM");
+  opacity: 0.5;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -177,7 +178,7 @@ a:active {
 }
 
 .sneakers {
-opacity: 0.7;
+opacity: 0.9;
 }
 
 #tops button {
@@ -194,7 +195,7 @@ opacity: 0.7;
 }
 
 .tsrt {
-opacity: 0.6;
+opacity: 0.8;
 }
 
 #bottoms button {
@@ -211,7 +212,7 @@ opacity: 0.6;
 }
 
 .trousers {
-  opacity: 0.6;
+  opacity: 0.8;
 }
 
 #accessories button {
@@ -228,7 +229,7 @@ opacity: 0.6;
 }
 
 .access {
-  opacity: 0.6;
+  opacity: 0.8;
 }
 
 .shop {
