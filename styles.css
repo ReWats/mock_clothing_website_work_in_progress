@@ -1,6 +1,5 @@
 body {
   background-image: url("https://fastly.picsum.photos/id/281/4928/3264.jpg?hmac=0XHN8kT-vNOM5Sl2vfxmJk0uWAbHSj5EUMAO9eQ0XFM");
-  opacity: 0.5;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -237,6 +236,8 @@ opacity: 0.8;
   grid-template-columns: repeat(4, 200px);
   gap: 30px;
   justify-content: center;
+  background-color: rgb(0 0 0 / .5);
+  color: #fff;
 }
 
 @media (max-width: 1000px) {
