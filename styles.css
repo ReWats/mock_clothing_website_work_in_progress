@@ -1,3 +1,10 @@
+body {
+  background-image: url("https://fastly.picsum.photos/id/281/4928/3264.jpg?hmac=0XHN8kT-vNOM5Sl2vfxmJk0uWAbHSj5EUMAO9eQ0XFM");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 .drop-dwn {
   justify-content: flex-start;
   margin-right: auto;
@@ -130,7 +137,6 @@ a:active {
 .sections {
   display: grid;
   max-width: 100%;
-  grid-template-rows: auto;
   grid-template-columns: repeat(2, 400px);
   justify-content: center;
   gap: 20px;
@@ -140,6 +146,7 @@ a:active {
   .sections {
     grid-template-columns: repeat(2, 300px);
     justify-content: centre;
+    font-size: 1rem;
   }
 }
 
@@ -147,6 +154,7 @@ a:active {
   .sections {
     grid-template-columns: repeat(1, 200px);
     justify-content: centre;
+    font-size: 1rem;
   }
 }
 
