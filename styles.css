@@ -190,8 +190,21 @@ a:active {
   align-items: centre;
 }
 
+@media (max-width: 1000px) {
+  .sections {
+    grid-template-columns: repeat(1, 100%);
+  }
+}
+
+@media (max-width: 500px) {
+  .sections {
+    grid-template-columns: repeat(1, 100%);
+  }
+}
+
 img {
-  max-height: 450px;
+  height: auto;
+  width: 100%
   border-radius 12px
 }
 
